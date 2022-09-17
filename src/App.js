@@ -6,7 +6,7 @@ import { AddToList } from "./Components/AddToList";
 import { RemoveFromList } from "./Components/RemoveFromList";
 function App() {
 
-  const [search,setSearch]=useState('Naruto')
+  const [search, setSearch]=useState('Naruto')
   const [animeData,setAnimeData]=useState();
   const [animeInfo,setAnimeInfo]=useState()
   const [myAnimeList,setMyAnimeList]=useState([])
